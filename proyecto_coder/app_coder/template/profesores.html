@@ -1,0 +1,32 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+{% block contenido %}
+
+<main>
+    <ul>
+        <li>Profesor 1</li>
+        <li>Profesor 2</li>
+        <li>Profesor 3</li>
+        <li>Profesor 4</li>
+    </ul>
+
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'app_coder/assets/img/avatar-icon.webp' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Profesor Hernandez</h5>
+          <p class="card-text">Profesor en el area de programación graduado en la Universidad de Buenos Aires</p>
+          <a href="#" class="btn btn-primary">ver notas de los alumnos</a>
+        </div>
+      </div>
+
+
+
+
+</main>
+
+
+
+
+{% endblock %} 
